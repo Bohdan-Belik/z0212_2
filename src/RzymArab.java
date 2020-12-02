@@ -4,7 +4,7 @@ public class RzymArab {
     private static int[] nums = {1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000};
 
     public static int rzym2arab (String rzym) throws RzymArabException {
-        // MMCDX
+        // MMCDX - example
         int p = nums.length-1;
         int sum = 0;
         while (!rzym.isEmpty()) {
